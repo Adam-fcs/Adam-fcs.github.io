@@ -811,6 +811,10 @@ address {
 }
 
 @media (max-width: 620px) {
+  .profile__photo {
+    max-width: 140px;
+  }
+
   .hero__media {
     aspect-ratio: 5 / 3;
   }
