@@ -801,8 +801,13 @@ address {
   }
 
   .profile__photo {
+    aspect-ratio: auto;
+    height: 220px;
     justify-self: center;
-    max-width: 190px;
+    max-width: none;
+    object-fit: cover;
+    object-position: center 32%;
+    width: 170px;
   }
 
   .section__intro {
@@ -812,7 +817,8 @@ address {
 
 @media (max-width: 620px) {
   .profile__photo {
-    max-width: 140px;
+    height: 175px;
+    width: 130px;
   }
 
   .hero__media {
