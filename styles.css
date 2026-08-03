@@ -649,6 +649,13 @@ h3 {
   margin-top: 0.45rem;
 }
 
+.gallery-set--plain-text .gallery-set__heading p,
+.gallery-set--plain-text .gallery-set__description,
+.gallery-set--plain-text .gallery-set__description span {
+  color: var(--ink);
+  font-style: normal;
+}
+
 .photo-card {
   background: var(--surface);
   border: 1px solid var(--line);
