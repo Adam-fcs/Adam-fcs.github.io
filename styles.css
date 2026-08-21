@@ -690,6 +690,19 @@ h3 {
   object-fit: contain;
 }
 
+.photo-card--portrait {
+  align-self: start;
+  aspect-ratio: 3 / 4;
+}
+
+.photo-card--portrait img,
+.photo-card--portrait video {
+  aspect-ratio: auto;
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
+}
+
 .photo-card--defence-crop-top {
   align-self: start;
 }
